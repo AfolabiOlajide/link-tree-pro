@@ -21,7 +21,7 @@ function App() {
         <LinkComponent id="pitch" link="https://background.zuri.team/" content="Background Check for Coders" />
         <LinkComponent id="book_design" link="https://books.zuri.team/design-rules" content="Design Books" />
         {/* icons */}
-        <div className="iocns flex justify-center space-x-4 my-12">
+        <div className="iocns flex justify-center space-x-4 mt-12 mb-24">
           <img className="w-8" src={Slack} alt="" />
           <img className="w-8" src={GitHub} alt="" />
         </div>
