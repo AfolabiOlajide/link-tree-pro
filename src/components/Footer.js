@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import IngresiveLogo from "../assets/ingresive_logo.png";
 
 const Footer = () => {
     return (
@@ -9,7 +11,9 @@ const Footer = () => {
             <div className="stack">
                 <h3 className='text-gray-400'>HNG Internship 9 Frontend Task</h3>
             </div>
-            <div className="ingresive-logo"></div>
+            <div className="ingresive-logo flex justify-start md:justify-end">
+                <img className='w-[30%] md:w-[50%]' src={IngresiveLogo} alt="" />
+            </div>
         </div>
     )
 }

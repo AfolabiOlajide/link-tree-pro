@@ -4,6 +4,8 @@ import LinkComponent from "./components/LinkComponent";
 import "./index.css";
 
 import ProfileImg from "./assets/profile_img.jpeg"
+import GitHub from "./assets/github_logo.png";
+import Slack from "./assets/slack_logo.png";
 
 function App() {
   return (
@@ -18,6 +20,11 @@ function App() {
         <LinkComponent id="books_python" link="https://books.zuri.team/python-for-beginners?ref_id=cipherr" content="Python Books" />
         <LinkComponent id="pitch" link="https://background.zuri.team/" content="Background Check for Coders" />
         <LinkComponent id="book_design" link="https://books.zuri.team/design-rules" content="Design Books" />
+        {/* icons */}
+        <div className="iocns flex justify-center space-x-4 my-12">
+          <img className="w-8" src={Slack} alt="" />
+          <img className="w-8" src={GitHub} alt="" />
+        </div>
         {/* Footer */}
         <Footer />
       </div>
